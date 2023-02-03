@@ -3,6 +3,7 @@ html {
 }
 body {
   font-size: 1.4rem;
+  background-color: #202020;
 }
 /* =14px */
 h1 {
@@ -22,7 +23,7 @@ h1 {
   background-position: bottom;
   overflow: hidden;
   font-family: "Montserrat", sans-serif;
-  color: #09383e;
+  color: white;
 }
 .content__wrapper {
   max-width: 1200px;
@@ -50,14 +51,14 @@ h1 {
 .menu-icon__line {
   width: 1.5rem;
   height: 0.2rem;
-  background-color: #0c383e;
+  background-color: white;
   display: block;
 }
 .menu-icon__line:before, .menu-icon__line:after {
   content: "";
   width: 1.5rem;
   height: 0.2rem;
-  background-color: #0c383e;
+  background-color: white;
   display: inline-block;
   position: relative;
 }
@@ -69,7 +70,7 @@ h1 {
   top: -1.8rem;
 }
 .heading {
-  width: 90%;
+  width: 100%;
   font-size: 2rem;
   font-weight: bold;
   margin: 0;
@@ -142,7 +143,7 @@ h1 {
   height: 0.3rem;
   border-radius: 50%;
   display: inline-block;
-  background-color: #0c383e;
+  background-color: white;
   position: relative;
   top: -0.65rem;
   left: -5.05rem;
@@ -175,7 +176,7 @@ h1 {
 .ellipses__outer--thick {
   width: 99.5%;
   height: 99.5%;
-  border-color: #09383e transparent;
+  border-color: white transparent;
   border-width: 2px;
   transform: rotate(-45deg);
   animation: ellipsesRotate 15s ease-in-out infinite;
@@ -184,7 +185,7 @@ h1 {
   width: 2.5rem;
   height: 2.5rem;
   border-width: 2px;
-  border-color: #09383e;
+  border-color: white;
   top: 5rem;
   right: 6.75rem;
 }
@@ -194,7 +195,7 @@ h1 {
   height: 0.7rem;
   border-radius: 50%;
   display: inline-block;
-  background-color: #09383e;
+  background-color: white;
   margin: 0 auto;
   left: 0;
   right: 0;
@@ -228,7 +229,7 @@ h1 {
   width: 100%;
   height: 0.1rem;
   display: block;
-  background-color: #0c383e;
+  background-color: white;
   margin: 0 0 2rem;
   opacity: 0.2;
 }
@@ -245,7 +246,7 @@ h1 {
   display: block;
   position: relative;
   float: right;
-  background-color: #0c383e;
+  background-color: white;
   top: 1rem;
 }
 @keyframes ellipsesRotate {
